@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+    display: block;
+    margin: 1rem;
+    padding: 0;
+    max-width: 100%;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.linkContainer {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 1rem;
+    position: relative;
+    top: 10rem;
+}
+
+.linkIcon {
+    display: block;
+    max-width: 30%;
+    margin: 1rem;
+}
+
+#photography {
+    position: relative;
+    top: 3rem;
+}
+
+#art {
+    position: relative;
+    top: 12rem;
+}
+
+#peanut {
+    position: relative;
+    top: 7rem;
+}
