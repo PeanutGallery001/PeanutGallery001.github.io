@@ -1,0 +1,15 @@
+.peanutInfo {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+}
+
+.contacts {
+    margin-top: 3rem;
+}
+
+.contacts > * {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}

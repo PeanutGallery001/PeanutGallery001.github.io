@@ -4,37 +4,69 @@ body {
     margin: 1rem;
     padding: 0;
     max-width: 100%;
+    max-height: 100%;
     justify-content: space-around;
     text-align: center;
     align-items: center;
 }
 
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
 .linkContainer {
     display: flex;
-    justify-content: center;
-    margin: auto;
-    padding: 1rem;
+    flex-direction: row;
     position: relative;
     top: 10rem;
+    margin: auto;
+    max-width: 100%;
+    justify-content: space-around;
 }
 
 .linkIcon {
-    display: block;
+    display: flex;
     max-width: 30%;
-    margin: 1rem;
-}
-
-#photography {
-    position: relative;
-    top: 3rem;
+    margin: .5rem;
 }
 
 #art {
+    display: block;
     position: relative;
     top: 12rem;
+    left: -3rem;
+}
+
+#blog {
+    display: block;
+    position: relative;
+    top: -3rem;
+    left: -4rem;
 }
 
 #peanut {
+    display: block;
     position: relative;
     top: 7rem;
+    left: 3rem;
+}
+
+#photography {
+    display: block;
+    position: relative;
+    top: -5rem;
+    left: 2rem;
+}
+
+#return {
+    display: block;
+    max-width: fit-content;
+    margin: auto;
+    position: relative;
+    bottom: -1rem;
 }

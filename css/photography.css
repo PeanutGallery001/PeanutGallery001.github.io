@@ -1,0 +1,31 @@
+h3 {
+    margin: .5rem;
+}
+
+.mapImage {
+    display: flex;
+    justify-content: start;
+    margin: 0;
+}
+
+.archiveList {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    justify-content: end;
+}
+
+.archiveList > * {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.archivePhoto {
+    display: block;
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+
+.photoInfo {
+    margin-top: .5rem;
+}

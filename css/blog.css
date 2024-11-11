@@ -1,0 +1,22 @@
+.blogEntry {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: start;
+}
+
+.blogEntry > * {
+    margin-top: 0;
+}
+
+.blogTitle {
+
+}
+
+.blogInfo {
+
+}
+
+.blogText {
+    text-align: justify;
+}
